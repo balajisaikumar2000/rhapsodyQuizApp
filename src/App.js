@@ -75,7 +75,7 @@ function App() {
 
   useEffect(() => {
     authListener();
-  }, []);
+  }, [authListener]);
   return (
     <div className="App">
       {user ? (
