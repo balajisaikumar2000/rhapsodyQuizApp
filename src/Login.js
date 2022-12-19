@@ -4,7 +4,6 @@ const Login = (props) => {
   const {
     email,
     setEmail,
-    password,
     setPassword,
     handleLogin,
     handleSignup,
