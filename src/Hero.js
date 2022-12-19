@@ -41,7 +41,7 @@ const Hero = ({ handleLogout, user }) => {
       clearInterval(interval);
     }
     return () => clearInterval(interval);
-  }, [isActive, seconds]);
+  }, [isActive, seconds,toggle]);
 
   const startQuiz = () => {
     setinfoActive(true);
